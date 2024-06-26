@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex2</title>
+</head>
+
+<body>
+
+  <button onclick="Ex('Ex1')">Ex1</button>
+  <button onclick="Ex('Ex2')">Ex2</button>
+  <button onclick="Ex('Ex3')">Ex3</button>
+
+  <!-- Ex1 -->
+  <div id="Ex1" class="hidden apparent">
+    <p id="text">this not a sample paragraph</p>
+    <input type="text" id="classinput" placeholder="enter class name">
+    <button onclick="addclass()">Add class</button>
+  </div>
+
+
+
+  <!-- Ex2 -->
+  <div id="Ex2" class="hidden">
+    <button onclick="togglevisibility('first')">toogle first par</button>
+    <button onclick="togglevisibility('second')">toogle second par</button>
+    <button onclick="togglevisibility('third')">toogle third par</button>
+
+    <p id="first">this is first par</p>
+    <p id="second">this is second par</p>
+    <p id="third">this is third par</p>
+  </div>
+
+
+  <!-- Ex3 -->
+  <div id="Ex3" class="hidden ">
+    <button id="click" onclick="clickme()">Click me !!!!!!!!!</button>
+
+  </div>
+
+
+  <script src="/js.js"></script>
+</body>
+
+</html>

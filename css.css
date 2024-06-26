@@ -1,0 +1,37 @@
+/*Ex1*/
+
+.highlight {
+  background-color: yellow;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*Ex2*/
+
+.hidden {
+  display: none;
+}
+
+.apparent {
+  display: block;
+}
+
+/*Ex3*/
+
+.clicked {
+  pointer-events: none;
+  background-color: rgb(155, 154, 154);
+}
+
+
+
+
+body {
+  background-color: aquamarine;
+}
